@@ -8,7 +8,7 @@ The goal is to estimate the position of a moving object indoors by using distanc
 - **Trilateration**: Calculates raw position estimates from distances.
 - **Kalman Filtering**: Smooths the noisy position estimates over time.
 
-## 📁 Dataset
+## 📁 Dataset :
 
 A CSV file contains the measured distances to three beacons (`Distance A`, `Distance B`, `Distance C`) at each timestamp. Example:
 
@@ -31,7 +31,7 @@ Create a virtual environment and install dependencies:
 pip install -r requirements.txt
 ```
 
-## ▶️ How to Run
+## ▶️ How to Run :
 
 Open the notebook:
 
@@ -44,7 +44,7 @@ Run all cells to perform:
 - Kalman Filter smoothing
 - Visualization
 
-## 📊 Output Insight
+## 📊 Output Insight :
 
 The final plot shows:
 - Raw estimated positions from trilateration (blue dots)
@@ -52,7 +52,7 @@ The final plot shows:
 
 This shows how filtering reduces noise in indoor location tracking.
 
-## 📄 GSoC Use
+## 📄 GSoC Use :
 
 This project demonstrates:
 - Experience with **Kalman Filters** and **state estimation**
@@ -61,10 +61,10 @@ This project demonstrates:
 
 It aligns well with the Movement GSoC project on Kalman filters for animal tracking or indoor positioning.
 
-## 👨‍💻 Author
+## 👨‍💻 Author :
 
-**[Your Name]**  
-Master’s in Data Science, USA  
-GitHub: [yourusername]
+**[Kaustubh Dangche]**  
+Master’s in Data Science at Illinois Institute Of Technology, USA  
+GitHub: [Kaustubhdangche]
 
 ---
