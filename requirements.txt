@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+filterpy
+jupyter
